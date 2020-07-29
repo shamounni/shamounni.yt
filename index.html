@@ -6,12 +6,17 @@
         <title>AHAMADA Shamounni</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="pdf.js"></script>
+		<script>
+			PDFJS.workerSrc = 'pdf.worker.js';
+		</script>
+		<script src="file.js"></script>
     </head>
     <body>
         <header>
         </header>
         <main>
-    <h1> Hello Marissa </h1>
+			<canvas id="canvaPDF" style="border:1px solid black;"/>
         </main>
         <footer>
     
